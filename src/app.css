@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    h1 {
+        @apply text-5xl;
+    }
+
+    h2 {
+        @apply text-4xl;
+    }
+
+    h4 {
+        @apply text-xl;
+    }
+
+    h5 {
+        @apply text-lg;
+    }
+
+    small {
+        @apply text-sm;
+    }
+
+    input {
+        @apply border-black border rounded px-1;
+    }
+
+    button {
+        @apply rounded-3xl border-black border-2 p-2 disabled:border-gray-500 disabled:text-gray-500
+    }
+}
+
+h3 {
+    font-size: 28px;
+}
